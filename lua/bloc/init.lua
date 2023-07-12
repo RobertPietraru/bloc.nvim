@@ -3,12 +3,6 @@ local utils = require('bloc.src.utils');
 
 local import_statement = "import 'package:flutter_bloc/flutter_bloc.dart';";
 
-local function get_parent_directory(path)
-    local parent_directory = path:match("(.+\\).+")
-    return parent_directory
-end
-
-
 -- local manager = require("neo-tree.sources.manager")
 -- local state manager.get_state("filesystem")
 
