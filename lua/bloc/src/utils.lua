@@ -30,8 +30,6 @@ end
 
  function M.replace_in_template(name_snake_case, template, bloc_path)
 	local name_pascal_case = snake_to_pascal_case(name_snake_case);
-	print(template)
-	print('fuck')
 	local file1 = string.gsub(template, "{snake_case}", name_snake_case)
 	local file2 = string.gsub(file1, "{pascal_case}", name_pascal_case)
 	local file3 = string.gsub(file2, "{pascal_case}", name_pascal_case)
