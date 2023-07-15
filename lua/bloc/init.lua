@@ -117,7 +117,7 @@ local function write_to_template(widget, input, template)
 	vim.api.nvim_feedkeys(with_input, 'n', true)
 end
 
-function M.init()
+function M.setup()
 	local null_ls = require 'null-ls'
 	null_ls.register({
 		name = 'Bloc Actions',
