@@ -67,7 +67,7 @@ Bloc.nvim uses null-ls to add additional actions to the language server's defaul
     This will show you a list of all possible code actions
 
 ## Configuration
-Currently you can't do much, but we are on it
+Currently you can't do much, but we are on it.
 Here's my personal config for the plugin using nvim-tree
 
 ```
