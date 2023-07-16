@@ -38,7 +38,11 @@ abstract class {pascal_case}State extends Equatable {
   List<Object> get props => [];
 }
 
-class {pascal_case}Initial extends {pascal_case}State {}
+class {pascal_case}Initial extends {pascal_case}State {
+	const {pascal_case}Initial();
+  	@override
+	List<Object?> get props => [];
+}
 ]]
 
 return M
