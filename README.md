@@ -8,7 +8,7 @@ Flutter Bloc.nvim is a Neovim replacement for the bloc extension in Vscode that 
 
 - **Bloc Template Generation**: Quickly generate boilerplate code for your BLoC classes, including events, states, and the bloc itself. 
 
-- **Bloc Widget Wrapping**: Effortlessly wrap your Flutter widgets with bloc-related classes, such as `BlocBuilder` and `BlocProvider`, with a few simple commands. Flutter Blocify eliminates the hassle of manually importing and setting up these widgets, allowing you to focus on your app's core logic.
+- **Bloc Widget Wrapping**: Effortlessly wrap your Flutter widgets with bloc-related classes, such as `BlocBuilder` and `BlocProvider`, with a few simple commands. Bloc.nvim eliminates the hassle of manually importing and setting up these widgets, allowing you to focus on your app's core logic.
 
 ## Installation
 
