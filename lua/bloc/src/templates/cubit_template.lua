@@ -6,7 +6,7 @@ import 'package:equatable/equatable.dart';
 part '{snake_case}_state.dart';
 
 class {pascal_case}Cubit extends Cubit<{pascal_case}State> {
-  {pascal_case}Cubit() : super(const {pascal_case}InitialState());
+  {pascal_case}Cubit() : super(const {pascal_case}Initial());
 }
 ]]
 
