@@ -105,7 +105,7 @@ vim.keymap.set("n", "<leader>Q", function()
 end)
 
 
--- TODO: remove this if you want, though you should always format after using the plugin
+-- TODO: remove this if you want, though you should always format after wrapping the widgets
 vim.keymap.set("n", "tt", function()
 		vim.lsp.buf.format()
 end)
