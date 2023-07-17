@@ -4,6 +4,10 @@ Flutter Bloc.nvim is a Neovim replacement for the bloc extension in Vscode that 
 1. [Flutter website](https://flutter.dev/)
 2. [Bloc website](https://bloclibrary.dev/)
 
+
+https://github.com/RobertPietraru/bloc.nvim/assets/64798198/1a3fbdd1-31bc-4deb-9dad-468410e42a78
+
+
 ## Features
 
 - **Bloc Template Generation**: Quickly generate boilerplate code for your BLoC classes, including events, states, and the bloc itself. 
