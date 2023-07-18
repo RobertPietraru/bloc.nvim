@@ -4,6 +4,10 @@ Flutter Bloc.nvim is a Neovim replacement for the bloc extension in Vscode that 
 1. [Flutter website](https://flutter.dev/)
 2. [Bloc website](https://bloclibrary.dev/)
 
+
+https://github.com/RobertPietraru/bloc.nvim/assets/64798198/1a3fbdd1-31bc-4deb-9dad-468410e42a78
+
+
 ## Features
 
 - **Bloc Template Generation**: Quickly generate boilerplate code for your BLoC classes, including events, states, and the bloc itself. 
@@ -41,8 +45,6 @@ Flutter Bloc.nvim is a Neovim replacement for the bloc extension in Vscode that 
     require('bloc').create_bloc('bloc_name', 'parent/folder/relative/path')
    ```
 
-   For example:
-
    ```vim
     :lua require('bloc').create_cubit('cubit_name', 'parent/folder/relative/path')
     :lua require('bloc').create_bloc('bloc_name', 'parent/folder/relative/path')
@@ -61,13 +63,13 @@ Bloc.nvim uses null-ls to add additional actions to the language server's defaul
     ```
 
     ```vim
-     lua: vim.lsp.buf.code_action()
+     :lua vim.lsp.buf.code_action()
     ```
 
     This will show you a list of all possible code actions
 
 ## Configuration
-Currently you can't much, but we are on it
+Currently you can't do much, but we are on it.
 Here's my personal config for the plugin using nvim-tree
 
 ```
