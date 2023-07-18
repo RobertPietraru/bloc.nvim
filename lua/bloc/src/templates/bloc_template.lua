@@ -4,7 +4,7 @@ local M = {}
 {bloc_path}
 import 'package:equatable/equatable.dart';
 
-part '{snake_case}_event.dart';
+part '{snake_case}_events.dart';
 part '{snake_case}_state.dart';
 
 class {pascal_case}Bloc extends Bloc<{pascal_case}Event, {pascal_case}State> {
@@ -23,7 +23,7 @@ abstract class {pascal_case}Event extends Equatable {
   const {pascal_case}Event();
 
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 ]]
 
@@ -35,13 +35,11 @@ abstract class {pascal_case}State extends Equatable {
   const {pascal_case}State();
   
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 
 class {pascal_case}Initial extends {pascal_case}State {
 	const {pascal_case}Initial();
-  	@override
-	List<Object?> get props => [];
 }
 ]]
 
