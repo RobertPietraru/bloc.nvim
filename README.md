@@ -21,7 +21,11 @@ https://github.com/RobertPietraru/bloc.nvim/assets/64798198/1a3fbdd1-31bc-4deb-9
 2. Install the BLoc.nvim plugin with your prefered package manager:
 
    ```Packer (lua)
-   use 'RobertPietraru/bloc.nvim'
+   use { 'ClzSkywalker/bloc.nvim',
+		requires = {
+			{ 'jose-elias-alvarez/null-ls.nvim' },
+		}
+	}
    ```
 
    ```Vim-Plug (vim)
