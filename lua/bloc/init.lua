@@ -9,18 +9,8 @@ function M.create_cubit(name, parent_folder_relative_path)
 	local cubit_templates = templates.cubit;
 	local path = parent_folder_relative_path
 	local cubit_folder_path = path .. name .. "_cubit";
-	os.execute("mkdir " .. cubit_folder_path)
 	
-	-- local platform = os.getenv("OS")
-	-- local newline
-	-- if platform == "Windows_NT" then
-    -- 		newline = "\\"
-	-- else
-    -- 		newline = "/"
-	-- end
-	local newline= "/"
-	
-	cubit_folder_path = cubit_folder_path .. newline
+	cubit_folder_path = cubit_folder_path .. "/"
 	local cubit_path = cubit_folder_path .. name .. "_cubit.dart";
 	local state_path = cubit_folder_path .. name .. "_state.dart";
 
@@ -36,16 +26,7 @@ function M.create_bloc(name, parent_folder_relative_path)
 	local bloc_folder_path = path .. name .. "_bloc";
 	os.execute("mkdir " .. bloc_folder_path)
 
-	-- local platform = os.getenv("OS")
-	-- local newline
-	-- if platform == "Windows_NT" then
-    -- 		newline = "\\"
-	-- else
-    -- 		newline = "/"
-	-- end
-	local newline= "/"
-	
-	bloc_folder_path = bloc_folder_path .. newline
+	bloc_folder_path = bloc_folder_path .. "/"
 	local bloc_path = bloc_folder_path .. name .. "_bloc.dart";
 	local state_path = bloc_folder_path .. name .. "_state.dart";
 	local events_path = bloc_folder_path .. name .. "_events.dart";
