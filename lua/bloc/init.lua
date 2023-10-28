@@ -10,6 +10,7 @@ function M.create_cubit(name, parent_folder_relative_path)
 	local path = parent_folder_relative_path
 	local cubit_folder_path = path .. name .. "_cubit";
 	local platform = os.getenv("OS")
+
 	local newline
 	if platform == "Windows_NT" then
 		newline = "\\"
@@ -18,7 +19,6 @@ function M.create_cubit(name, parent_folder_relative_path)
 	end
 
 	cubit_folder_path = cubit_folder_path .. newline
-	cubit_folder_path = cubit_folder_path .. "/"
 	local cubit_path = cubit_folder_path .. name .. "_cubit.dart";
 	local state_path = cubit_folder_path .. name .. "_state.dart";
 
