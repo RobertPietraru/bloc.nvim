@@ -9,6 +9,7 @@ function M.create_cubit(name, parent_folder_relative_path)
 	local cubit_templates = templates.cubit;
 	local path = parent_folder_relative_path
 	local cubit_folder_path = path .. name .. "_cubit";
+	os.execute("mkdir " .. cubit_folder_path)
 	local platform = os.getenv("OS")
 
 	local newline
