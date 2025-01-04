@@ -119,7 +119,7 @@ end)
 ```
 ## Contributing
 
-We welcome contributions to Bloc.nvim! If you encounter any issues or have ideas for enhancements, please submit them to our [GitHub repository](RobertPietraru/bloc.nvim). We appreciate your feedback and pull requests.
+We welcome contributions to Bloc.nvim! If you encounter any issues or have ideas for enhancements, please submit them. We appreciate your feedback and pull requests.
 
 ## License
 
